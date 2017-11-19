@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  flex: 1 1 100;
+  display: flex;
+}
+
+.Board {
+  height: 70vw;
+  width: 70vw;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 5px solid red;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+.Square {
+  flex: 1 1 30%;
+  border: 5px solid black;
+  height: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+}
+
+.SquareText {
+  flex: 1;
+  align-self: center;
+  min-width: 5vw;
+  min-height: 5vh;
+}
